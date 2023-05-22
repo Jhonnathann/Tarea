@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Pagina Bootstrap</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- MDB icon -->
+    <link rel="icon" href="img/img.png" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <script type="text/javascript" src="js/funciones.js"></script>
+  
+  </head>
+
+
+  <body style="background-image: url(img/img.jpg);">
+    
+    <div role="navigation">
+      <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <!-- Toggle button -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-mdb-toggle="collapse"
+      data-mdb-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Navbar brand -->
+      <a class="navbar-brand mt-2 mt-lg-0" href="#">
+        <img
+          src="img/img.png"
+          height="25"
+          alt="MDB Logo"
+          loading="lazy"
+        />
+      </a>
+      <!-- Left links -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html" style="color: black;">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Equipos.html" style="color: black;">Equipos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Solicitud.html" style="color: black;">Solicitud</a>
+        </li>
+      </ul>
+      <!-- Left links -->
+    </div>
+    <!-- Collapsible wrapper -->
+
+    <!-- Right elements -->
+
+      <!-- Notifications -->
+      <div class="dropdown">
+        <a
+          class="text-reset me-3 dropdown-toggle hidden-arrow"
+          href="#"
+          id="navbarDropdownMenuLink"
+          role="button"
+          data-mdb-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <i class="fas fa-bell"></i>
+          <span class="badge rounded-pill badge-notification bg-danger">+99</span>
+        </a>
+        <ul
+          class="dropdown-menu dropdown-menu-end"
+          aria-labelledby="navbarDropdownMenuLink"
+        >                 
+        </ul>
+      </div>
+      <!-- Avatar -->
+      <div class="dropdown">
+        <a
+          class="dropdown-toggle d-flex align-items-center hidden-arrow"
+          href="login.html"
+          id="navbarDropdownMenuAvatar"
+          role="button"
+          data-mdb-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <img
+            src="img/user.png"
+            class="rounded-circle"
+            height="20"
+            alt="Black and White Portrait of a Man"
+            loading="lazy"
+          />
+        </a>
+        <ul
+          class="dropdown-menu dropdown-menu-end"
+          aria-labelledby="navbarDropdownMenuAvatar"
+        >
+        <li>
+          <a class="dropdown-item" href="login.html">Registrarse</a>
+        </li>
+
+        </ul>
+      </div>
+    </div>
+    <!-- Right elements -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
+    </div>
+    
+    <!--Formulario-->
+
+    <form >
+      <img src="img/gif.webp" alt="" width="100px">
+      <img src="img/gif.webp" alt="" width="100px" class="img">
+  <section class="registro">
+       
+      <h4>Solicitud de equipos </h4>
+
+      <h5 style="text-align: center;">Datos del solicitante</h5><br>
+
+      <input class="dato" type="text" name="Nombre" id="Nombre" placeholder="Ingrese su nombre"><br>
+
+      <input class="dato" type="number" name="Identificacion" id="Identificacion" placeholder="Ingrese su identificacion"><br>
+
+      <h5>Departamento al que pertenese</h5>
+      <select>
+          <option disabled selected>Elija una opcion</option>
+          <option>Sistemas</option>
+          <option>Civil</option>
+          <option>Electronica</option>
+      </select>
+      <p><td><br></td></p>
+      <input class="dato" type="text" name="otro" id="otro" placeholder="Otro"><br><br>
+
+      <h5 style="text-align: center;">Datos del monitor</h5>
+
+      <input class="dato" type="text" name="nombre" id="nombre" placeholder="Nombre">
+
+      <input class="dato" type="number" name="cel" id="cel" placeholder="Número de teléfono">
+      
+      <h5 style="text-align: center;">Datos de los equipos</h5><br>
+
+      <input class="dato" type="email" name="Correo electronico" id="Correo" placeholder="Correo electronico"><br>   
+
+      <input class="dato" type="number" name="Numero" id="Numero" placeholder="Numero de telefono"><br>
+
+      <input class="dato" type="number" name="codigo" id="codigo" placeholder="Codigo de usuario"><br>
+
+      <h5>Fecha de la solicitud del prestamo</h5>
+      <input class="dato" type="date" name="Inicio" id="Inicio">
+
+      <h5>Fecha de inicio del prestamo</h5>
+      <input class="dato" type="date" name="Inicio" id="Inicio">
+
+      <h5>Fecha de fin del prestamo</h5>
+      <input class="dato" type="date" name="Inicio" id="Inicio"><br>
+
+      <h5>Equipos solicitado</h5>
+      <h5 style="font-size: small;">
+      Computador <input type="checkbox">
+      Videobin <input type="checkbox">
+      Microfono <input type="checkbox">        
+  </h5>
+      <input class="dato" type="text" name="serie" id="serie" placeholder="Número de serie"><br>
+
+      <h5>
+          Descripción detallada de los equipos solicitados <br>
+          <textarea cols="35" rows="10" id="area"></textarea> <br>
+      </h5>
+
+      <label for="">Estado de los equipos solicitados</label><br>
+      <input type="radio" id="N" name="Estado"><label for="N"> Nuevo</label>
+      <input type="radio" id="U" name="Estado"><label for="U"> Usado</label> 
+      <input type="radio" id="R" name="Estado"><label for="R"> Reparado</label>
+
+      <h5>Fecha de adquisicion de los equipos</h5>
+      <input class="dato" type="date" name="adquisicion" id="adquisicion"><br>
+
+      <h5>Fecha de devolución estimada</h5>
+      <input class="dato" type="date" name="devolución" id="devolución"><br>
+
+      <h5>Dirección donde se usará el equipo</h5>
+      <input class="dato" type="text" name="direccion" id="direccion" ><br>
+
+      <h5>Motivo del préstamo</h5>
+      <textarea id="area2" cols="44" rows="5"></textarea><br>
+
+      <input class="dato" type="text" name="aprueba" id="aprueba" placeholder="Monitor que aprueba"><br>
+
+      <h5 >Comentarios adicionales o requisitos especiales</h5>
+      <textarea id="area3" cols="44" rows="5"></textarea><br>
+
+      <h5>Fecha de entrega del equipo</h5>
+      <input class="dato" type="date" name="entrega" id="entrega"><br>
+
+      <h5>Fecha de recepción del equipo</h5>
+      <input class="dato" type="date" name="recivido" id="recivido"><br>
+
+      <label for="">Estado del equipo a la entrega </label><br>
+      <input type="radio" id="B" name="Est"><label for="B"> En buen estado &#9989;</label><br>
+      <input type="radio" id="D" name="Est"><label for="D"> Con daños &#10060;</label><br>
+      <input type="radio" id="F" name="Est"><label for="F"> Faltante &#10067;</label><br>
+      <p><td><br></td></p>
+
+      <p style="text-align: center;" >
+          <input type="checkbox"> 
+          Aceptacion de terminos y condiciones
+      </p>
+
+      <p style="text-align: center;" > 
+          <input type="checkbox">
+          Aceptacion de la politica de privacidad            
+      </p> <br>
+
+      <center><button type="submit">Submit.</button>
+      <button type="reset">Reset.</button></center>
+
+       <!--PIE DE PAG-->
+       <footer class="bg">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/" role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/" role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.google.com/" role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/" role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+      
+            <!-- Github -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/" role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2023 Copyright
+          <a class="text-white" href="https://us.123rf.com/450wm/mathibfa/mathibfa1812/mathibfa181200276/113999447-ups-lo-siento-no-s%C3%A9-el-hombre-de-negocios-joven-se-encoge-de-hombros-muestra-un-gesto-de.jpg?ver=6"></a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+      
+    </form>
+    
+    
+
+    <!-- MDB No Borrar-->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+                     
+  </section>
+</form>
+    <!-- MDB No Borrar-->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+   
+  </body>
+</html>
